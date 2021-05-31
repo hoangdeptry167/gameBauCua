@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#money_player{
+    color: #f1c40f;
+    font-family: 'Press Start 2P', cursive;
+}
+#quan_ly_tien_nguoi_choi{
+    width: 100%;
+    text-align: center;
+    margin-left: -3px;
+    position: relative;
+}
+#quan_ly_tien_nguoi_choi img{
+    width: 40px;
+    height: 40px;
+    margin-left: -100px;
+}
+#quan_ly_tien_nguoi_choi p{
+    /* float: left; */
+    text-align: center;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 70px;
+}

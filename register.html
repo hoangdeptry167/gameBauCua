@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<style>
+    #nameOfPlayer{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    
+}
+#accountOfPlayer{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#password{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#rePassword{
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+body{
+    background:url(/images/register.jpg)
+}
+</style>
+<body style="background-size: cover;" >
+    <div class="col-auto" style="text-align: center;position: relative; margin-top: 15%; ">
+        <input type="text" class="form-control" placeholder="Họ tên" id="nameOfPlayer">
+        <input type="text" class="form-control" placeholder="Tên đăng nhập" id="accountOfPlayer">
+        <input type="password" class="form-control" placeholder="Mật khẩu" id="password">
+        <input type="password" class="form-control" placeholder="Nhập lại mật khẩu" id="rePassword">
+    </div>
+    <div class="col-auto" style="text-align: center;">
+        <button type="submit" class="btn btn-danger mb-3" style="margin-top:10px;">Confirm</button>
+    </div>
+</body>
+</html>

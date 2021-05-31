@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Bầu Cua</title>
+    <link rel="stylesheet" href="/css/beautiful.css">
+    <link rel="stylesheet" href="/css/xucxac1.css">
+    <link rel="stylesheet" href="/css/xucxac2.css">
+    <link rel="stylesheet" href="/css/xucxac3.css">
+    <!-- <link rel="stylesheet" href="/css/quanlyXucXac.css"> -->
+    <link rel="stylesheet" href="/css/coutdownTimer.css">
+    <link rel="stylesheet" href="/css/money_player.css">
+    <link rel="stylesheet" href="/css/quanLyNutTien.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+</head>
+<link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+
+<body>
+
+    <!-- Example split danger button -->
+    <div class="btn-group">
+
+        <button type="button" class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Trần Hữu Hoàng
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item btn-outline-info " href="#">Thông tin</a></li>
+            <li><a class="dropdown-item btn-outline-info" href="#">Đổi mật khẩu</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item btn-outline-info" href="#">Thoát</a></li>
+        </ul>
+        <!-- tiền người chơi -->
+
+    </div>
+    <div id="quan_ly_tien_nguoi_choi">
+        <img src="/images/dollar.png" alt="">
+        <p style="text-align: center; " id="money_player"></p>
+    </div>
+    <!-- đồng hồ đếm ngược -->
+    <div class="countdownTimer" id="countdownTimer">
+        <span id="minutes"></span>
+        <span id="xx">:</span>
+        <span id="second"></span>
+    </div>
+    <!-- bàn cờ -->
+    <div id="banco">
+        <div id="quanly">
+            <div id="Bau" class="banco">0</div>
+            <div id="Cua" class="banco">0</div>
+            <div id="Tom" class="banco">0</div>
+            <div id="Ca" class="banco">0</div>
+            <div id="Ga" class="banco">0</div>
+            <div id="Nai" class="banco">0</div>
+        </div>
+    </div>
+    <div id="quanLyXucXac" style="margin:0 auto; width: 60%;">
+        <div class="scene">
+            <div class="cube">
+                <div class="cube__face cube__face--1"
+                    style="background-image: url(/images/bầu.jpg);  background-size: cover;"></div>
+                <div class="cube__face cube__face--2"
+                    style="background-image: url(/images/cua.jpg);  background-size: cover;"></div>
+                <div class="cube__face cube__face--3"
+                    style="background-image: url(/images/tôm.jpg);  background-size: cover;"></div>
+                <div class="cube__face cube__face--4"
+                    style="background-image: url(/images/Cá.png);  background-size: cover;"></div>
+                <div class="cube__face cube__face--5"
+                    style="background-image: url(/images/gà.jpg);  background-size: cover;"></div>
+                <div class="cube__face cube__face--6"
+                    style="background-image: url(/images/nai.jpg);  background-size: cover;"></div>
+            </div>
+        </div>
+        <!-- xúc xắc 2 -->
+        <div class="scene_2">
+            <div class="cube_2">
+                <div class="cube__face_2 cube__face--1_2"
+                    style="background-image: url(/images/bầu.jpg);  background-size: cover;"></div>
+                <div class="cube__face_2 cube__face--2_2"
+                    style="background-image: url(/images/cua.jpg);  background-size: cover;"></div>
+                <div class="cube__face_2 cube__face--3_2"
+                    style="background-image: url(/images/tôm.jpg);  background-size: cover;"></div>
+                <div class="cube__face_2 cube__face--4_2"
+                    style="background-image: url(/images/Cá.png);  background-size: cover;"></div>
+                <div class="cube__face_2 cube__face--5_2"
+                    style="background-image: url(/images/gà.jpg);  background-size: cover;"></div>
+                <div class="cube__face_2 cube__face--6_2"
+                    style="background-image: url(/images/nai.jpg);  background-size: cover;"></div>
+            </div>
+        </div>
+        <!-- xúc xắc 3 -->
+        <div class="scene_3">
+            <div class="cube_3">
+                <div class="cube__face_3 cube__face--1_3"
+                    style="background-image: url(/images/bầu.jpg);  background-size: cover;"></div>
+                <div class="cube__face_3 cube__face--2_3"
+                    style="background-image: url(/images/cua.jpg);  background-size: cover;"></div>
+                <div class="cube__face_3 cube__face--3_3"
+                    style="background-image: url(/images/tôm.jpg);  background-size: cover;"></div>
+                <div class="cube__face_3 cube__face--4_3"
+                    style="background-image: url(/images/Cá.png);  background-size: cover;"></div>
+                <div class="cube__face_3 cube__face--5_3"
+                    style="background-image: url(/images/gà.jpg);  background-size: cover;"></div>
+                <div class="cube__face_3 cube__face--6_3"
+                    style="background-image: url(/images/nai.jpg);  background-size: cover;"></div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center;" id="quanlynutTien" ">
+        <button class="btn btn-outline-success" value="1000" name="giatri" id="myBtn">1000</button>
+        <button class="btn btn-outline-success" value="2000" name="giatri" id="value2"">2000</button>
+        <button class=" btn btn-outline-success" value="3000" name="giatri"">3000</button>
+        <button class=" btn btn-outline-success" value="4000" name="giatri"">4000</button>
+        <button class=" btn btn-outline-success" value="5000" name="giatri">5000 &nbsp;</button> <br>
+        <button class="btn btn-outline-success" value="6000" name="giatri">6000</button>
+        <button class="btn btn-outline-success" value="7000" name="giatri">7000</button>
+        <button class="btn btn-outline-success" value="8000" name="giatri">8000</button>
+        <button class="btn btn-outline-success" value="9000" name="giatri">9000</button>
+        <button class="btn btn-outline-success" value="10000" name="giatri">10000</button>
+        <!-- <button id="testss" onclick="PrintArray();">Console.log</button> -->
+    </div>
+
+</body>
+<script type="module" src="/sever/Main.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+
+</html>

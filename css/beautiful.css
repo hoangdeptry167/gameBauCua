@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    background: url(/images/wallpaper.jpg);
+    background-size: cover;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+}
+
+#banco {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    /* border: solid 3px black; */
+    margin: 0px auto;
+    /* background-color: #f7f1e3; */
+    overflow: hidden;
+}
+
+#Nai,
+#Bau,
+#Ga,
+#Ca,
+#Cua,
+#Tom {
+
+    width: 200px;
+    height: 200px;
+    border: solid 1px #74b9ff;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #6c5ce7;
+    font-family: 'Zen Dots', cursive;
+}
+
+#Tom:hover {
+    transform: scale(1.1);
+}
+
+#Ca:hover {
+    transform: scale(1.1);
+}
+
+#Cua:hover {
+    transform: scale(1.1);
+}
+
+#Nai:hover {
+    transform: scale(1.1);
+}
+
+#Ga:hover {
+    transform: scale(1.1);
+}
+
+#Bau:hover {
+    transform: scale(1.1);
+}
+
+#Nai,
+#Bau,
+#Ga {
+    float: left;
+}
+
+#Cua,
+#Tom {
+    float: left;
+}
+
+#quanly {
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+#Ca {
+    float: left;
+    clear: both;
+    background-image: url(/images/Cá.png);
+    background-size: cover;
+
+
+}
+
+#Cua {
+    background-image: url(/images/cua.jpg);
+    background-size: cover;
+}
+
+#Tom {
+    background-image: url(/images/tôm.jpg);
+    background-size: cover;
+}
+
+#Ga {
+    background-image: url(/images/gà.jpg);
+    background-size: cover;
+}
+
+#Bau {
+    background-image: url(/images/bầu.jpg);
+    background-size: cover;
+}
+
+#Nai {
+    background-image: url(/images/nai.jpg);
+    background-size: cover;
+}
+
+
+
+/* Phần nhập tên người chơi */
+
+#nhaptennguoichoi {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    background-color: cadetblue;
+}
+
+.btn {
+    margin: 5px 5px;
+}
